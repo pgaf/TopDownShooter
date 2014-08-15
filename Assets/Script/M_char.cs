@@ -14,7 +14,7 @@ public class M_char : MonoBehaviour {
 	public Transform hand;
 
 
-	public  Light light;
+	public Light light;
 	private Gun  G;
 	private Quaternion tragetQuatetnion;
 	private Camera cam;
@@ -23,7 +23,7 @@ public class M_char : MonoBehaviour {
 
 	void Start () 
 	{
-		light.intensity = PlayerHealth.FlashLightIntensity;
+		light.intensity = 0.5f;
 		cam = Camera.main;
 		CharConttoller = GetComponent<CharacterController> ();
 		SwitchGun (0);
@@ -35,7 +35,7 @@ public class M_char : MonoBehaviour {
 		if (Input.GetMouseButton (1))
 						light.intensity = 1.08f;
 		else
-			light.intensity = PlayerHealth.FlashLightIntensity;
+			light.intensity = 0.8f;
 
 
 		controllerWASD ();
