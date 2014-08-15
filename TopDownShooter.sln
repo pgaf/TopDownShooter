@@ -1,26 +1,29 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{8376733B-E1CD-C25B-A16F-C4B44F93CF6D}") = "TopDownShooter", "Assembly-CSharp.csproj", "{3540D610-CBC1-E541-ADC9-3337CB6145AD}"
+EndProject
+Project("{8376733B-E1CD-C25B-A16F-C4B44F93CF6D}") = "TopDownShooter", "Assembly-UnityScript-Editor.unityproj", "{28ABF284-10F3-CE39-FC08-65D0D06970CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{3540D610-CBC1-E541-ADC9-3337CB6145AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3540D610-CBC1-E541-ADC9-3337CB6145AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3540D610-CBC1-E541-ADC9-3337CB6145AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3540D610-CBC1-E541-ADC9-3337CB6145AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28ABF284-10F3-CE39-FC08-65D0D06970CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28ABF284-10F3-CE39-FC08-65D0D06970CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28ABF284-10F3-CE39-FC08-65D0D06970CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28ABF284-10F3-CE39-FC08-65D0D06970CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< HEAD
-																																																			GlobalSection(MonoDevelopProperties) = preSolution
-=======
-																																														GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> 81f54053d66fa5706034d5f739e14b14ed9f4abe
-=======
-																																															GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> 76756d91c2f574d469958715556e02d9cd7e3da7
+																																									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
